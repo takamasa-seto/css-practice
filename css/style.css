@@ -39,6 +39,8 @@
 .main {
   font-family: Arial, "游ゴシック", sans-serif;
   position: relative;
+  display: flex;
+  justify-content: space-between;
 }
 
 .message {
@@ -48,17 +50,13 @@
 }
 
 .message_txt {
-  position: absolute;
-  z-index: 100;
+  width: 50vw;
   font-size: 98px;
   font-weight: 500;
   line-height: 90px;
 }
 
 .message_bar {
-  position: absolute;
-  top: 90px;
-  z-index: 0;
   width: 75vw;
   aspect-ratio: 100 / 18.5;
   background-color: #082077;
