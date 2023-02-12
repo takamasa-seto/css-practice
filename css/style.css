@@ -44,16 +44,21 @@
 .message {
   position: absolute;
   top: 28.5vw;
-  z-index: 0;
+  width: 100%;
 }
 
 .message_txt {
+  position: absolute;
+  z-index: 100;
   font-size: 98px;
   font-weight: 500;
   line-height: 90px;
 }
 
 .message_bar {
+  position: absolute;
+  top: 90px;
+  z-index: 0;
   width: 75vw;
   aspect-ratio: 100 / 18.5;
   background-color: #082077;
