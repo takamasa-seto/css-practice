@@ -39,21 +39,17 @@
 .main {
   font-family: Arial, "游ゴシック", sans-serif;
   position: relative;
-  display: flex;
-  justify-content: space-between;
 }
 
 .message {
   position: absolute;
   top: 28.5vw;
-  width: 100%;
 }
 
 .message_txt {
-  width: 50vw;
-  font-size: 98px;
+  font-size: 5vw;
   font-weight: 500;
-  line-height: 90px;
+  line-height: 4.6vw;
 }
 
 .message_bar {
